@@ -1,4 +1,5 @@
 require('dotenv').config(); // Load environment variables from .env
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 const express = require('express');
 const app = express();
 const PORT = 3000;
