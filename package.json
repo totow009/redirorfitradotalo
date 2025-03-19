@@ -2,21 +2,13 @@
   "name": "redirect-filter",
   "version": "1.0.0",
   "description": "tol",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
     
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/totow009/redirorfitradotalo.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/totow009/redirorfitradotalo/issues"
-  },
-  "homepage": "https://github.com/totow009/redirorfitradotalo#readme",
   "dependencies": {
     "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
